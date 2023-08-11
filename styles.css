@@ -16,6 +16,9 @@ header {
     padding: 1.5rem;
     background-color: hsl(0, 0%, 100%);
 }
+p {
+    line-height: 1.75rem;
+}
 
 .logo {
     height: 1.5rem;
@@ -39,13 +42,15 @@ button {
     border: none;
     color: hsl(0, 0%, 100%);
     background: linear-gradient(to right, hsl(136, 65%, 51%) 0%, hsl(192, 70%, 51%) 100%);
-    padding: 0.5rem 1.5rem;
+    padding: 0.75rem 2rem;
     font-weight: 700;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .info-page {
     display: flex;
+    background-color: hsl(0, 0%, 98%);
+    height: 90vh;
 }
 
 .over {
@@ -53,11 +58,48 @@ button {
     top: 0;
 }
 .first-half {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem;
     width: 40%;
+}
+.first-half h1 {
+    font-weight: 400;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    color: hsl(233, 26%, 24%);
+}
+.first-half p {
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 1.5rem;
+}
+.first-half button {
+    margin-right: auto;
 }
 .pic-half {
     background-image: url(./images/bg-intro-desktop.svg);
     width: 60%;
     background-repeat: no-repeat;
     background-position: 1rem -10rem;
+}
+
+.why-bank {
+    background-color: hsl(220, 16%, 96%);
+    padding: 6rem;
+}
+.why-bank > h1 {
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.why-bank > p {
+    width: 40%;
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 1.5rem;
+}
+.why-bank .services {
+    display: flex;
 }
