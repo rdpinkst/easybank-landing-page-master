@@ -155,9 +155,26 @@ button {
     margin: 0.75rem 0;
 }
 footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: hsl(233, 26%, 24%);
     color: hsl(0, 0%, 98%);
+    padding: 2rem;
+}
+footer > div img{
+    margin: 2.5rem 0;
 }
 .logo-white {
-    fill: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 98%);
+}
+.flex-btn button {
+    margin-left: auto;
+    margin-bottom: 2.5rem;
+}
+.info-grid ul {
+    display: grid;
+
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
 }
