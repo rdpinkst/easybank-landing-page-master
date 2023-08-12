@@ -120,3 +120,44 @@ button {
 .services p {
     color: hsl(233, 8%, 62%);
 }
+.article-container {
+    display: flex;
+    margin: 4rem 6rem 6rem 6rem;
+    justify-content: space-between;
+}
+.article-container article > img {
+    height: 20rem;
+    width: 25rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.articles > h1 {
+    margin: 6rem 6rem 0 6rem;
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: hsl(233, 26%, 24%);
+}
+.art-content {
+    width: 70%;
+    margin: 1.5rem;
+}
+.art-content > p {
+    font-size: 0.8rem;
+}
+.art-content p {
+    color: hsl(233, 8%, 62%);
+}
+.art-content p:last-child {
+    font-size: 1rem;
+}
+.art-content h1 {
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    margin: 0.75rem 0;
+}
+footer {
+    background-color: hsl(233, 26%, 24%);
+    color: hsl(0, 0%, 98%);
+}
+.logo-white {
+    fill: hsl(0, 0%, 98%);
+}
