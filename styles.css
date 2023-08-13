@@ -33,7 +33,7 @@ li {
     margin-right: 2rem;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: hsl(233, 8%, 62%);
 }
@@ -46,7 +46,9 @@ button {
     font-weight: 700;
     border-radius: 2rem;
 }
-
+button:hover {
+    cursor: pointer;
+}
 .info-page {
     display: flex;
     background-color: hsl(0, 0%, 98%);
@@ -80,6 +82,7 @@ button {
 }
 .pic-half {
     background-image: url(./images/bg-intro-desktop.svg);
+    background-size: 100%;
     width: 60%;
     background-repeat: no-repeat;
     background-position: 1rem -10rem;
@@ -165,16 +168,31 @@ footer {
 footer > div img{
     margin: 2.5rem 0;
 }
-.logo-white {
-    color: hsl(0, 0%, 98%);
-}
 .flex-btn button {
+    display: block;
     margin-left: auto;
     margin-bottom: 2.5rem;
 }
+.flex-btn p {
+    color: hsl(233, 8%, 62%);
+}
+.info-grid {
+    width: 25%;
+}
 .info-grid ul {
     display: grid;
-
-    grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+footer a {
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+    font-weight: 300;
+}
+.social img {
+    margin-right: 1rem;
+}
+.attribution {
+    padding: 1rem;
 }
