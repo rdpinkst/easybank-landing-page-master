@@ -22,6 +22,7 @@ p {
 
 .logo {
     height: 1.5rem;
+    color: #2D314D;
 }
 nav ul{
     display: flex;
@@ -57,7 +58,7 @@ button:hover {
 
 .over {
     /* position: relative; */
-    object-position: 300px -150px;
+    object-position: 45% -10rem;
    object-fit: contain;
     width: 145%;
     height: 145%;
@@ -134,8 +135,8 @@ button:hover {
     justify-content: space-between;
 }
 .article-container article > img {
-    height: 20rem;
-    width: 25rem;
+    height: 50%;
+    width: 90%;
     border-radius: 0.5rem 0.5rem 0 0;
 }
 .articles > h1 {
@@ -200,4 +201,7 @@ footer a {
 }
 .attribution {
     padding: 1rem;
+}
+.logo-white {
+    width: 80%;
 }
