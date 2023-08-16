@@ -233,14 +233,18 @@ footer a {
 .logo-white {
     width: 80%;
 }
-.info-grid a:hover {
-    color: hsl(136, 65%, 51%);
+
+.info-grid a:hover path{
+    filter: hsl(136, 65%, 51%);
 }
 .facebook {
-    mask: url(./images/icon-facebook.svg);
+    mask-image: url(./images/icon-facebook.svg);
+    background-color: hsl(0, 0%, 98%);
+    width: 20px;
+    height: 20px;
 }
 .facebook:hover {
-    background: red;
+    background-color: red;
 }
 span {
     display: inline-block;
