@@ -172,6 +172,13 @@ button:hover {
 .art-content p {
     color: hsl(233, 8%, 62%);
 }
+.art-content a {
+    text-decoration: none;
+    color: hsl(233, 26%, 24%);
+}
+.art-content a:hover {
+    color: hsl(136, 65%, 51%);
+}
 .art-content p:last-child {
     font-size: 1rem;
 }
@@ -216,9 +223,27 @@ footer a {
 .social img {
     margin-right: 1rem;
 }
+.social img:hover {
+    cursor: pointer;
+    fill: hsl(136, 65%, 51%);
+}
 .attribution {
     padding: 1rem;
 }
 .logo-white {
     width: 80%;
+}
+.info-grid a:hover {
+    color: hsl(136, 65%, 51%);
+}
+.facebook {
+    mask: url(./images/icon-facebook.svg);
+}
+.facebook:hover {
+    background: red;
+}
+span {
+    display: inline-block;
+    background-color: #2D314D;
+    mask-size: cover;
 }
