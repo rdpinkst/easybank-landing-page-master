@@ -196,7 +196,7 @@ footer {
     padding: 2rem;
 }
 footer > div img{
-    margin: 2.5rem 0;
+    margin-bottom: 2.5rem;
 }
 .flex-btn button {
     display: block;
@@ -220,31 +220,37 @@ footer a {
     color: hsl(0, 0%, 98%);
     font-weight: 300;
 }
-.social img {
-    margin-right: 1rem;
-}
-.social img:hover {
-    cursor: pointer;
-    fill: hsl(136, 65%, 51%);
+footer a:hover {
+    color: hsl(136, 65%, 51%);
 }
 .attribution {
     padding: 1rem;
 }
-.logo-white {
-    width: 80%;
-}
-
-.info-grid a:hover path{
-    filter: hsl(136, 65%, 51%);
+.logo-span {
+    width: 20px;
+    height: 20px;
+    background-color: hsl(0, 0%, 98%);
+    cursor: pointer;
+    margin-right: 1rem;
 }
 .facebook {
     mask-image: url(./images/icon-facebook.svg);
-    background-color: hsl(0, 0%, 98%);
-    width: 20px;
-    height: 20px;
 }
-.facebook:hover {
-    background-color: red;
+.youtube {
+    mask-image: url(./images/icon-youtube.svg);
+}
+.twitter {
+    mask-image: url(./images/icon-twitter.svg);
+}
+.pinterest{
+    mask-image: url(./images/icon-pinterest.svg);
+}
+.instagram {
+    mask-image: url(./images/icon-instagram.svg);
+}
+.logo-span:hover  {
+    background-color: hsl(136, 65%, 51%);
+    
 }
 span {
     display: inline-block;
