@@ -264,6 +264,9 @@ span {
     body {
         font-size: 14px;
     }
+    header {
+        height: 4rem
+    }
     nav ul, header button {
         display: none;
     }
@@ -277,9 +280,11 @@ span {
     .info-page {
         width: 100%;
         flex-direction: column-reverse;
+        overflow: hidden;
     }
     .info-page h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
     }
     .first-half {
         padding: 1rem;
@@ -288,13 +293,15 @@ span {
     }
     .first-half button {
         margin-left: auto;
+        margin-bottom: 3rem;
     }
     .why-bank {
-        padding: 1rem;
+        padding: 3rem 1rem;
         text-align: center;
     }
     .why-bank p {
         width: 100%;
+        margin-bottom: 2rem;
     }
     .services div {
         margin-right: 0;
@@ -324,5 +331,17 @@ span {
     .pic-half {
         background-image: url(./images/bg-intro-mobile.svg);
         width: 100%;
+        background-size: 110%;
+        background-position: 0  0;
+    }
+    .over {
+        object-position: 0  -4rem;
+        height: 100%;
+        width: 100%;
+    }
+    .articles > h1 {
+        font-size: 2rem;
+        margin: 4rem 0 2rem 0;
+        text-align: center;
     }
 }
