@@ -271,12 +271,30 @@ span {
         display: block;
         cursor: pointer;
     }
-    .info-page, .why-bank .services, .article-container, footer {
+    .why-bank .services, .article-container, footer {
         flex-direction: column;
+    }
+    .info-page {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .info-page h1 {
+        font-size: 2rem;
+    }
+    .first-half {
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .first-half button {
+        margin-left: auto;
     }
     .why-bank {
         padding: 1rem;
         text-align: center;
+    }
+    .why-bank p {
+        width: 100%;
     }
     .services div {
         margin-right: 0;
@@ -302,5 +320,9 @@ span {
     .info-grid {
         width: 50%;
         text-align: center;
+    }
+    .pic-half {
+        background-image: url(./images/bg-intro-mobile.svg);
+        width: 100%;
     }
 }
