@@ -331,11 +331,11 @@ span {
     .pic-half {
         background-image: url(./images/bg-intro-mobile.svg);
         width: 100%;
-        background-size: 110%;
+        background-size: 120%;
         background-position: 0  0;
     }
     .over {
-        object-position: 0  -4rem;
+        object-position: 0  -1.7rem;
         height: 100%;
         width: 100%;
     }
