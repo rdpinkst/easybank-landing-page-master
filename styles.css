@@ -344,4 +344,16 @@ span {
         margin: 4rem 0 2rem 0;
         text-align: center;
     }
+    .flex-btn button {
+        margin-bottom: 1.5rem;
+    }
+    .article-container article > img {
+        width: 100%;
+    }
+    .art-content {
+        width: 90%;
+    }
+    .article-container article {
+        margin-bottom: 2rem;
+    }
 }
