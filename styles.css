@@ -270,6 +270,7 @@ span {
     nav ul, header button {
         display: none;
     }
+   
     .hamburger {
         display: block;
         cursor: pointer;
