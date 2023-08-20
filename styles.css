@@ -56,6 +56,9 @@ nav a:hover{
 .hamburger {
     display: none;
 }
+.close {
+    display: none;
+}
 
 button {
     border: none;
@@ -267,12 +270,33 @@ span {
     header {
         height: 4rem
     }
-    nav ul, header button {
+    header button {
         display: none;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        top: 5rem;
+        background-color: hsl(0, 0%, 100%);
+        width: 80%;
+        height: 37%;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    nav a {
+        color: hsl(233, 26%, 24%);
+        font-size: 1.25rem;
     }
    
     .hamburger {
         display: block;
+        cursor: pointer;
+    }
+    .close {
         cursor: pointer;
     }
     .why-bank .services, .article-container, footer {
