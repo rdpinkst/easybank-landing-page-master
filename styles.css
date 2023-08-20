@@ -55,9 +55,11 @@ nav a:hover{
 }
 .hamburger {
     display: none;
+    width: 20px;
 }
 .close {
     display: none;
+    width: 20px;
 }
 
 button {
@@ -276,10 +278,12 @@ span {
     nav {
         display: none;
         position: absolute;
+        z-index: 4;
         top: 5rem;
         background-color: hsl(0, 0%, 100%);
         width: 80%;
         height: 37%;
+        border-radius: 5px;
     }
     nav ul {
         flex-direction: column;
@@ -356,13 +360,14 @@ span {
     .pic-half {
         background-image: url(./images/bg-intro-mobile.svg);
         width: 100%;
-        background-size: 120%;
+        background-size: 100%;
         background-position: 0  0;
+        overflow: hidden;
     }
     .over {
-        object-position: 0  -1.7rem;
-        height: 100%;
+        height: 150%;
         width: 100%;
+        object-position: 50% -7rem;
     }
     .articles > h1 {
         font-size: 2rem;
