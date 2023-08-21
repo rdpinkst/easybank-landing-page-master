@@ -296,6 +296,12 @@ span {
         color: hsl(233, 26%, 24%);
         font-size: 1.25rem;
     }
+    nav a:hover {
+        border-bottom: none;
+    }
+    .social:last-child {
+        margin-right: 0;
+    }
    
     .hamburger {
         display: block;
@@ -352,6 +358,9 @@ span {
         margin: 1.5rem auto;
     }
     footer > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-bottom: 1.5rem;
     }
     .info-grid {
@@ -386,5 +395,11 @@ span {
     }
     .article-container article {
         margin-bottom: 2rem;
+    }
+    .info-grid li {
+        margin-right: 0;
+    }
+    .instagram {
+        margin-right: 0;
     }
 }
