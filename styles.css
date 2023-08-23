@@ -256,8 +256,7 @@ footer a:hover {
     mask-image: url(./images/icon-instagram.svg);
 }
 .logo-span:hover  {
-    background-color: hsl(136, 65%, 51%);
-    
+    background-color: hsl(136, 65%, 51%);    
 }
 span {
     display: inline-block;
